@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tu Servicio de Reparación de Celulares</title>
+</head>
+<body>
+    <header>
+        <img src="enlace-a-tu-logo" alt="Logo de tu servicio">
+        <h1>Bienvenido a [Nombre de tu Servicio]</h1>
+        <p>Somos expertos en reparación de celulares. ¡Confía en nosotros para solucionar tus problemas!</p>
+    </header>
+
+    <section id="services">
+        <h2>Servicios</h2>
+        <ul>
+            <li>Reparación de Pantallas</li>
+            <li>Reparación de Baterías</li>
+            <li>Reparación de Hardware y Software</li>
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>Sobre Nosotros</h2>
+        <p>Somos un equipo de profesionales apasionados por la tecnología. Nuestra misión es proporcionar servicios de reparación confiables y rápidos para mantener tus dispositivos en perfecto estado.</p>
+    </section>
+
+    <section id="why-choose-us">
+        <h2>¿Por qué elegirnos?</h2>
+        <ul>
+            <li><strong>Experiencia:</strong> Con años de experiencia, garantizamos reparaciones de calidad.</li>
+            <li><strong>Rapidez:</strong> Trabajamos para devolverte tu celular lo antes posible.</li>
+            <li><strong>Atención al Cliente:</strong> Nos preocupamos por tu satisfacción y ofrecemos un excelente servicio al cliente.</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contáctanos</h2>
+        <form>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Número de Teléfono:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="issue">Descripción del Problema:</label>
+            <textarea id="issue" name="issue" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section id="gallery">
+        <h2>Galería de Antes y Después</h2>
+        <!-- Aquí puedes agregar imágenes antes y después -->
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
